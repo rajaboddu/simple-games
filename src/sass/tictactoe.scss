@@ -1,0 +1,21 @@
+.ttt-board{
+    height: 80vh;
+    margin-top: -5.3rem;
+}
+
+.board-button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0% !important;
+    border: 1px solid #f0ebf4 !important;
+}
+
+.board-button:disabled{
+    background-color: var(--pink) !important;
+    color: #f0ebf4 !important;
+}
+
+
+#common-button:hover{
+    box-shadow: 1.5px 4px 15px #f000ff;
+}

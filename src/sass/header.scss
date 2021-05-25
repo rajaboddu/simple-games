@@ -1,0 +1,14 @@
+nav{
+    width: 100vw;
+    height: 20vh;
+    a:active{
+        color: aqua;
+    }
+    .tab{
+        color: var(--pink);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    
+}

@@ -1,0 +1,52 @@
+.flames-container {
+  .flames-box {
+    height: 80vh;
+    margin-top: -5.3rem;
+    h3 {
+      font-size: 3rem;
+    }
+    .flames-firstname,
+    .flames-secondname,.flames-name {
+      max-width: 100vw;
+      margin: auto;
+      margin-bottom: 1.4rem;
+    }
+    .flames-result-display{
+      font-size: 1.4rem;
+      max-width: 14rem;
+      margin: auto;
+      font-family: 'BerkshireSwash';
+      color: #ec2b52;
+      font-weight: 500;
+    }
+  }
+}
+
+#firstname, #secondname, #name{
+  font-family: 'Niconne', cursive;
+  font-size: 1.5rem;
+}
+
+#firstname{
+  color: var(--green) !important;
+  border-bottom: 1px solid var(--green) !important;
+}
+#name, #secondname{
+  color: var(--pink) !important;
+  border-bottom: 1px solid var(--pink) !important;
+}
+
+#firstname-label, #secondname-label, #name-label{
+  font-family: 'BerkshireSwash', cursive;
+  font-size: 1rem;
+}
+
+#firstname-label{
+  color: var(--green);
+}
+
+#name-label, #secondname-label{
+  color:var(--pink);
+}
+
+

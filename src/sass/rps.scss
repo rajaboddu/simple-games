@@ -1,0 +1,40 @@
+.game-box{
+    height: 80vh;
+    margin-top: -5.3rem;
+    .game-rival-text, .game-user-text{
+        font-size: 2rem !important;
+        font-family: "BerkshireSwash"
+    }
+
+
+    .game-button-ROCK,.game-button-PAPER,.game-button-SCISSORS{
+        border: none;
+        color: #2d283e !important;
+        font-size: 1rem ;
+        font-weight: 600;
+    }
+    .game-button-ROCK:hover{
+        box-shadow: 1.5px 4px 15px #f000ff;
+    }
+    .game-button-PAPER:hover{
+        box-shadow: 1.5px 4px 15px #4deeea;
+    }
+    .game-button-SCISSORS:hover{
+        box-shadow: 1.5px 4px 10px #ffe700;
+    }
+
+    .game-button-ROCK{
+        background-color: #f000ff;
+    }
+
+    .game-button-PAPER{
+        background-color: #4deeea;
+    }
+    .game-button-SCISSORS{
+        background-color: #ffe700;  
+    }
+
+    .game-results{
+        margin-top: 1rem;
+    }
+}
